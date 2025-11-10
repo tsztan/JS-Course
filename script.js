@@ -158,3 +158,8 @@ const game = {
 //   const teamStr = team === 'x' ? 'draw' : `victory ${game[team]}`;
 //   console.log(`Odd of ${teamStr}: ${odd}`);
 // }
+
+const announcement =
+  'All passangers come to boarding door 23. Boarding door 23!';
+
+console.log(announcement.replace(/door/g, 'gate'));
